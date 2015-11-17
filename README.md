@@ -1,4 +1,4 @@
-geobins
+# geobins
 
 - [Dependencies](#dependencies)
 - [Build Instructions](#build-instructions)
@@ -28,6 +28,11 @@ make
 ```
 
 #### Running Tests
+
+Tests are not implemented yet, but will be executed with:
+```
+make test
+```
 
 #### To do
 
