@@ -1,5 +1,7 @@
 # geobins
 
+[![Build Status](https://travis-ci.org/hanwang/geobins.svg?branch=master)](https://travis-ci.org/hanwang/geobins)
+
 - [Dependencies](#dependencies)
 - [Build Instructions](#build-instructions)
 - [Running Tests](#running-tests)
