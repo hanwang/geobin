@@ -2,11 +2,19 @@ language: cpp
 
 compiler:
   - gcc
-
+  
+addons:
+    apt:
+      packages:
+        - cmake
+      sources:
+        - kalakris-cmake
+        
 before_script:
   - mkdir build
   - cd build
   - cmake ..
+  - make
 
-script: make
+script: make test
 
