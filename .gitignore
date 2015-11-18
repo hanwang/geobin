@@ -26,15 +26,20 @@
 *.exe
 *.out
 *.app
+main/myApp
 
 # Gmock and Gtest (installed by Cmake)
 gmock
 gtest
+*/gtest/*
+*/gmock/*
 
 #cmake files
 CMakeCache.txt
 CMakeFiles
+*/CMakeFiles/*
 cmake_install.cmake
+CTestTestfile.cmake
 
 #cmake generated makefile
 Makefile 
