@@ -10,6 +10,7 @@ add_library(libgeobins STATIC
 
 # Specify here the include directories exported
 # by this library
+
 target_include_directories(libgeobins PUBLIC
     ${CMAKE_CURRENT_SOURCE_DIR}
 )

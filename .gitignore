@@ -38,8 +38,8 @@ gtest
 CMakeCache.txt
 CMakeFiles
 */CMakeFiles/*
-cmake_install.cmake
-CTestTestfile.cmake
+*.cmake
+build
 
 #cmake generated makefile
 Makefile 
